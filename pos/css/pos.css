@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+}
+
+.col-lg-2,
+.col-md-3,
+.col-xs-6 {
+  margin-bottom: 18px !important;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.product-darken {
+  filter: brightness(70%);
+}
+
+.product-desc {
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.items-pos {
+  border-right: 1px solid #bdbdbd;
+  background-color: white;
+}
+
+.box {
+  border-radius: 4px;
+  padding-bottom: 100%;
+}
+
+/*bg colors for item boxes*/
+.bg-orange {
+  background: orange;
+}
+.bg-red {
+  background: #e53935;
+}
+.bg-pink {
+  background: #ec407a;
+}
+.bg-purple {
+  background: #ab47bc;
+}
+.bg-blue {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+.bg-cyan {
+  background: #00bcd4;
+}
+.bg-teal {
+  background: #009688;
+}
+.bg-green {
+  background: #4caf50;
+}
+.bg-brown {
+  background: #795548;
+}
+.bg-blue-grey {
+  background: #607d8b;
+}
+
+.col-lg-2 {
+  margin-bottom: 20px !important;
+}
